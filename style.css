@@ -1,7 +1,5 @@
 body{
-    display: flex;
-    background-image: url("wallpaper2you_491946.jpg");
-    background-size: cover;
+   
     display: grid;
     height: 100vh;
     place-items: center;
