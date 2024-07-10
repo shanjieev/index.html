@@ -1,0 +1,53 @@
+body{
+    background-image: url("wallpaper2you_491946.jpg");
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-image: linear-gradient(black);
+    position: absolute;
+    border-radius: 20px; 
+ }
+
+ .main input[type='text'] {
+   width: 80%;
+   background-image: linear-gradient(black,white);
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    font-size: 40px;
+    border: transparent;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+ }
+ .btn input[type='button']{
+    font-weight: bold;
+    background-color:transparent;
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 50px;
+    color: black;
+
+    
+ }
+ .btn input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
