@@ -1,5 +1,5 @@
-body{
-   
+body {
+
     display: grid;
     height: 100vh;
     place-items: center;
@@ -14,7 +14,7 @@ body{
 
  .main input[type='text'] {
    width: 80%;
-   background-image: linear-gradient(black,white);
+   background-image: linear-gradient(rgb(153, 87, 87),white);
     position: relative;
     height: 80px;
     top: 5px;
